@@ -1,0 +1,13 @@
+{
+  "name": "youtube_clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "googleapi": "^1.0.2",
+    "simple-oauth2": "^5.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
