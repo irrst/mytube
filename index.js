@@ -45,7 +45,7 @@ url_user_validation.searchParams.append("code_challenge", code_challenge)
 url_user_validation.searchParams.append("code_challenge_method", code_challenge_method)
 console.log(url_user_validation.href)
 document.getElementById("bar").href = url_user_validation.href
-
+/*
 const base_url_token = "https://oauth2.googleapis.com/token"
 const request = new Request(base_url_token, {
   method: "POST",
@@ -66,3 +66,4 @@ const response = fetch(request)
 console.log(response)
 console.log(response.then((response) => response.json()))
 console.log(5)
+*/
